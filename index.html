@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<!--stole half of this from that rowen dude lol-->
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the Home Page">
+    <meta name="keywords" content="home, welcome, main page">
+    <link rel="icon" href="src/Assets/favicon.png" type="image/png">
+</head>
+
+<body>
+    <canvas id="bg-canvas"></canvas>
+    <script src="script.js"></script>
+    <header>
+        <div id="navbar">
+            <img src="src/Assets/logo.png" alt="Site logo" class="logo">
+        </div>
+
+        <div class="header-title">Welcome to [[404EXP!]]</div>
+
+        <div class="header-controls">
+            <div class="dropdown">
+                <button class="dropbtn">G*mes</button>
+                <div class="dropdown-content">
+                    <a href="src/g/Cookieclicker/index.html">CookieClicker</a>
+                    <a href="src/g/page2.html">Nintendo</a>
+                    <a href="src/g/LG-Hub-main/index.html">Multigames</a>
+                    <a href="src/g/Minecraft.html">Minecraft</a>
+                </div>
+            </div>
+            <button id="red1">utube</button>
+            <button id="red2">learn</button>
+        </div>
+    </header>
+    <main class="main-content">
+        <section class="hero">
+            <h1>Welcome to the Hub</h1>
+            <p class="lead">Play, explore, and enjoy a curated collection of small games and projects.</p>
+            <div class="hero-cta">
+                <a class="btn-primary" href="src/g/LG-Hub-main/index.html">Browse Multigames</a>
+                <a class="btn-secondary" href="#games">See Featured Games</a>
+            </div>
+        </section>
+
+        <section id="games" class="games-section">
+            <h2>Featured Games</h2>
+            <div class="games-grid">
+                <a class="game-card" href="src/g/Cookieclicker/index.html">
+                    <img src="src/Assets/Cookie_Clicker_logo.png" alt="CookieClicker thumbnail">
+                    <div class="game-card-body">
+                        <strong>CookieClicker</strong>
+                        <small>Incremental cookie fun</small>
+                    </div>
+                </a>
+
+                <a class="game-card" href="src/g/page2.html">
+                    <img src="src/Assets/nintendo.png" alt="Nintendo thumbnail">
+                    <div class="game-card-body">
+                        <strong>Nintendo</strong>
+                        <small>Classic picks</small>
+                    </div>
+                </a>
+
+                <a class="game-card" href="src/g/LG-Hub-main/index.html">
+                    <img src="src/Assets/multigames.png" alt="Multigames thumbnail">
+                    <div class="game-card-body">
+                        <strong>Multigames</strong>
+                        <small>More to explore</small>
+                    </div>
+                </a>
+
+                <!-- Minecraft moved to Other Games below -->
+            </div>
+        </section>
+
+        <section id="other-games" class="games-section">
+            <h2>Other Games</h2>
+            <div class="games-grid small-grid">
+                <a class="game-card" href="src/g/Minecraft.html">
+                    <img src="src/Assets/Minecraft.png" alt="Minecraft thumbnail">
+                    <div class="game-card-body">
+                        <strong>Minecraft</strong>
+                        <small>Multiplayer coming soon maybe</small>
+                    </div>
+                </a>
+                <a class="game-card" href="src/g/Minecraft skin puller/index.html">
+                    <img src="src/Assets/Minecrafrt skin puller.png" alt="Skin Puller thumbnail">
+                    <div class="game-card-body">
+                        <strong>Skin Puller</strong>
+                        <small>Fetch and preview Minecraft skins</small>
+                    </div>
+                </a>
+                <a class="game-card" href="src/g/page3.html">
+                    <img src="src/Assets/utube.png" alt="Youtube">
+                    <div class="game-card-body">
+                        <strong>Youtube!</strong>
+                        <small>Youtube but offbrand</small>
+                    </div>
+                </a>
+                <a class="game-card" href="src/i/index.html">
+                    <img src="src/Assets/iframe.png" alt="Youtube">
+                    <div class="game-card-body">
+                        <strong>Iframer!</strong>
+                        <small>bypass goguardian with this simple iframer!</small>
+                    </div>
+        </section>
+        <section class="about">
+            <h2>About this site</h2>
+            <p>Hello! This site is a request that i've been getting from people, so i brought it to life!</p>
+            <small>WARNING: if you get in trouble then this is not my responsibility</small>
+        </section>
+        <section class="updates main-content">
+            <h2>Latest updates</h2>
+            <ul>
+                <li><strong>2025-10-16</strong>: Header — added left logo and centered site title; restyled header
+                    buttons and controls for better responsiveness.</li>
+                <li><strong>2025-10-16</strong>: Games — redesigned the Featured Games grid (3x3 layout) and added an
+                    "Other Games" section (moved Minecraft there).</li>
+                <li><strong>2025-10-01</strong>: Added CookieClicker improvements.</li>
+                <li><strong>2025-09-12</strong>: New Multigames hub imported.</li>
+            </ul>
+        </section>
+    </main>
+</body>
+
+</html>
